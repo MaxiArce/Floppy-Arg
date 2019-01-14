@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230EB5227774CF8FE0F7DF60 /* Pods_Floppy_ARG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E85944FA3BDF517A7D1CD0 /* Pods_Floppy_ARG.framework */; };
+		D635906F1EC8FA0C0029528C /* CharacterSelectorImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = D635906E1EC8FA0C0029528C /* CharacterSelectorImage1.png */; };
+		D63590711EC8FC7D0029528C /* CharacterSelectorImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = D63590701EC8FC7D0029528C /* CharacterSelectorImage2.png */; };
+		D63590731EC9225B0029528C /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D63590721EC9225B0029528C /* switch.wav */; };
+		D63590751EC9226C0029528C /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = D63590741EC9226C0029528C /* click.wav */; };
+		D63590781EC9257F0029528C /* Pinguinos.png in Resources */ = {isa = PBXBuildFile; fileRef = D63590761EC9257F0029528C /* Pinguinos.png */; };
+		D63590791EC9257F0029528C /* Arsat.png in Resources */ = {isa = PBXBuildFile; fileRef = D63590771EC9257F0029528C /* Arsat.png */; };
+		D635907B1EC931750029528C /* SuperHimno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D635907A1EC931750029528C /* SuperHimno.mp3 */; };
+		D6375A7A1EB9660100F5EB2B /* CharacterSelectorScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6375A791EB9660100F5EB2B /* CharacterSelectorScene.sks */; };
+		D6375A7C1EB9662900F5EB2B /* CharacterSelectorScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6375A7B1EB9662900F5EB2B /* CharacterSelectorScene.swift */; };
+		D64AD9621EBC4BBF00627FAA /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = D64AD9611EBC4BBF00627FAA /* car.png */; };
+		D64AD96C1EBC58BF00627FAA /* nestor1.png in Resources */ = {isa = PBXBuildFile; fileRef = D64AD9691EBC58BF00627FAA /* nestor1.png */; };
+		D64AD96D1EBC58BF00627FAA /* nestor2.png in Resources */ = {isa = PBXBuildFile; fileRef = D64AD96A1EBC58BF00627FAA /* nestor2.png */; };
+		D64AD96E1EBC58BF00627FAA /* nestorFull.png in Resources */ = {isa = PBXBuildFile; fileRef = D64AD96B1EBC58BF00627FAA /* nestorFull.png */; };
+		D64AD9701EBC5D3C00627FAA /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64AD96F1EBC5D3C00627FAA /* GoogleMobileAds.framework */; };
+		D67482341EFC8BC60019D424 /* characterSelectorBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482331EFC8BC60019D424 /* characterSelectorBackground.png */; };
+		D67482361EFC8BD00019D424 /* cristi2Full.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482351EFC8BD00019D424 /* cristi2Full.png */; };
+		D67482381EFC8BDD0019D424 /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482371EFC8BDD0019D424 /* LaunchScreen.png */; };
+		D674823A1EFC8BF40019D424 /* macri2Full.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482391EFC8BF40019D424 /* macri2Full.png */; };
+		D674823D1EFC8C020019D424 /* cristi2.png in Resources */ = {isa = PBXBuildFile; fileRef = D674823B1EFC8C020019D424 /* cristi2.png */; };
+		D674823E1EFC8C020019D424 /* cristi3.png in Resources */ = {isa = PBXBuildFile; fileRef = D674823C1EFC8C020019D424 /* cristi3.png */; };
+		D67482401EFC8C0A0019D424 /* cristi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D674823F1EFC8C0A0019D424 /* cristi1.png */; };
+		D674824B1EFC8E2A0019D424 /* choseCharacter.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482471EFC8E2A0019D424 /* choseCharacter.png */; };
+		D674824C1EFC8E2A0019D424 /* nubeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482481EFC8E2A0019D424 /* nubeButton.png */; };
+		D674824D1EFC8E2A0019D424 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482491EFC8E2A0019D424 /* playButton.png */; };
+		D674824E1EFC8E2A0019D424 /* restartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D674824A1EFC8E2A0019D424 /* restartButton.png */; };
+		D67482501EFC954D0019D424 /* BackGroundHome.png in Resources */ = {isa = PBXBuildFile; fileRef = D674824F1EFC954D0019D424 /* BackGroundHome.png */; };
+		D67482521EFC95AF0019D424 /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482511EFC95AF0019D424 /* fondo.png */; };
+		D67482541EFC96170019D424 /* exitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D67482531EFC96170019D424 /* exitButton.png */; };
+		D6768E391EC13609009F1042 /* firstJump.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D6768E381EC13582009F1042 /* firstJump.m4a */; };
+		D6768E3B1EC13830009F1042 /* Jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6768E3A1EC13830009F1042 /* Jump.wav */; };
+		D6768E3D1EC14056009F1042 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = D6768E3C1EC14056009F1042 /* Crash.wav */; };
+		D6768E3F1EC1443E009F1042 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6768E3E1EC1443E009F1042 /* GameScene.swift */; };
+		D67C9BC61EB2B35200EFD629 /* HomeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D67C9BC51EB2B35200EFD629 /* HomeScene.sks */; };
+		D68140721EBAA6A30061DB3E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68140711EBAA6A30061DB3E /* Launch Screen.storyboard */; };
+		D6883DF91EC00595006F2EC7 /* Helicoptero.png in Resources */ = {isa = PBXBuildFile; fileRef = D6883DF71EC00595006F2EC7 /* Helicoptero.png */; };
+		D6883DFA1EC00595006F2EC7 /* MacriGato.png in Resources */ = {isa = PBXBuildFile; fileRef = D6883DF81EC00595006F2EC7 /* MacriGato.png */; };
+		D6DB7A2F1EC64851003DF0E9 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DB7A2E1EC64851003DF0E9 /* HomeScene.swift */; };
+		D6EC438C1EC16AE6002BC17F /* nestor3.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EC438B1EC16AE6002BC17F /* nestor3.png */; };
+		D6EC438E1EC17131002BC17F /* cajon.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EC438D1EC17131002BC17F /* cajon.png */; };
+		D6EC43901EC17693002BC17F /* cartelCristi.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EC438F1EC17693002BC17F /* cartelCristi.png */; };
+		D6EC43921EC17847002BC17F /* cartelCristi1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6EC43911EC17847002BC17F /* cartelCristi1.png */; };
+		D6F37F7D1ECE70B600DD2194 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6F37F7C1ECE70B600DD2194 /* GoogleService-Info.plist */; };
+		D6F5C4131EAFF5B9005EFE69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C4121EAFF5B9005EFE69 /* AppDelegate.swift */; };
+		D6F5C4151EAFF5B9005EFE69 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C4141EAFF5B9005EFE69 /* GameScene.sks */; };
+		D6F5C4171EAFF5B9005EFE69 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C4161EAFF5B9005EFE69 /* Actions.sks */; };
+		D6F5C41B1EAFF5B9005EFE69 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C41A1EAFF5B9005EFE69 /* GameViewController.swift */; };
+		D6F5C41E1EAFF5B9005EFE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C41C1EAFF5B9005EFE69 /* Main.storyboard */; };
+		D6F5C4201EAFF5B9005EFE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C41F1EAFF5B9005EFE69 /* Assets.xcassets */; };
+		D6F5C4331EB0284C005EFE69 /* fly1.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C42A1EB0284C005EFE69 /* fly1.png */; };
+		D6F5C4341EB0284C005EFE69 /* fly2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C42B1EB0284C005EFE69 /* fly2.png */; };
+		D6F5C4351EB0284C005EFE69 /* fondo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C42C1EB0284C005EFE69 /* fondo2.png */; };
+		D6F5C4391EB0284C005EFE69 /* cristilens.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C4301EB0284C005EFE69 /* cristilens.png */; };
+		D6F5C4671EB07DB7005EFE69 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6F5C4661EB07DB7005EFE69 /* Raleway-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1102C24DE057A9D68362F5CB /* Pods-Floppy ARG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floppy ARG.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floppy ARG/Pods-Floppy ARG.release.xcconfig"; sourceTree = "<group>"; };
+		62E85944FA3BDF517A7D1CD0 /* Pods_Floppy_ARG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floppy_ARG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB4558FB0BCF2092872E12E /* Pods-Floppy ARG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floppy ARG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floppy ARG/Pods-Floppy ARG.debug.xcconfig"; sourceTree = "<group>"; };
+		D635906E1EC8FA0C0029528C /* CharacterSelectorImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CharacterSelectorImage1.png; sourceTree = "<group>"; };
+		D63590701EC8FC7D0029528C /* CharacterSelectorImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CharacterSelectorImage2.png; sourceTree = "<group>"; };
+		D63590721EC9225B0029528C /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch.wav; sourceTree = "<group>"; };
+		D63590741EC9226C0029528C /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
+		D63590761EC9257F0029528C /* Pinguinos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pinguinos.png; sourceTree = "<group>"; };
+		D63590771EC9257F0029528C /* Arsat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsat.png; sourceTree = "<group>"; };
+		D635907A1EC931750029528C /* SuperHimno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SuperHimno.mp3; sourceTree = "<group>"; };
+		D6375A791EB9660100F5EB2B /* CharacterSelectorScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CharacterSelectorScene.sks; sourceTree = "<group>"; };
+		D6375A7B1EB9662900F5EB2B /* CharacterSelectorScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterSelectorScene.swift; sourceTree = "<group>"; };
+		D64AD9611EBC4BBF00627FAA /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		D64AD9691EBC58BF00627FAA /* nestor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nestor1.png; sourceTree = "<group>"; };
+		D64AD96A1EBC58BF00627FAA /* nestor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nestor2.png; sourceTree = "<group>"; };
+		D64AD96B1EBC58BF00627FAA /* nestorFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nestorFull.png; sourceTree = "<group>"; };
+		D64AD96F1EBC5D3C00627FAA /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		D67482331EFC8BC60019D424 /* characterSelectorBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characterSelectorBackground.png; sourceTree = "<group>"; };
+		D67482351EFC8BD00019D424 /* cristi2Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristi2Full.png; sourceTree = "<group>"; };
+		D67482371EFC8BDD0019D424 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
+		D67482391EFC8BF40019D424 /* macri2Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macri2Full.png; sourceTree = "<group>"; };
+		D674823B1EFC8C020019D424 /* cristi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristi2.png; sourceTree = "<group>"; };
+		D674823C1EFC8C020019D424 /* cristi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristi3.png; sourceTree = "<group>"; };
+		D674823F1EFC8C0A0019D424 /* cristi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristi1.png; sourceTree = "<group>"; };
+		D67482411EFC8C190019D424 /* BackGroundHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGroundHome.png; sourceTree = "<group>"; };
+		D67482471EFC8E2A0019D424 /* choseCharacter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choseCharacter.png; sourceTree = "<group>"; };
+		D67482481EFC8E2A0019D424 /* nubeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nubeButton.png; sourceTree = "<group>"; };
+		D67482491EFC8E2A0019D424 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		D674824A1EFC8E2A0019D424 /* restartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restartButton.png; sourceTree = "<group>"; };
+		D674824F1EFC954D0019D424 /* BackGroundHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGroundHome.png; sourceTree = "<group>"; };
+		D67482511EFC95AF0019D424 /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo.png; sourceTree = "<group>"; };
+		D67482531EFC96170019D424 /* exitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exitButton.png; sourceTree = "<group>"; };
+		D6768E381EC13582009F1042 /* firstJump.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = firstJump.m4a; sourceTree = "<group>"; };
+		D6768E3A1EC13830009F1042 /* Jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Jump.wav; sourceTree = "<group>"; };
+		D6768E3C1EC14056009F1042 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
+		D6768E3E1EC1443E009F1042 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D67C9BC51EB2B35200EFD629 /* HomeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HomeScene.sks; sourceTree = "<group>"; };
+		D68140711EBAA6A30061DB3E /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D6883DF71EC00595006F2EC7 /* Helicoptero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Helicoptero.png; sourceTree = "<group>"; };
+		D6883DF81EC00595006F2EC7 /* MacriGato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacriGato.png; sourceTree = "<group>"; };
+		D6DB7A2E1EC64851003DF0E9 /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		D6EC438B1EC16AE6002BC17F /* nestor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nestor3.png; sourceTree = "<group>"; };
+		D6EC438D1EC17131002BC17F /* cajon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cajon.png; sourceTree = "<group>"; };
+		D6EC438F1EC17693002BC17F /* cartelCristi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartelCristi.png; sourceTree = "<group>"; };
+		D6EC43911EC17847002BC17F /* cartelCristi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cartelCristi1.png; sourceTree = "<group>"; };
+		D6F37F7C1ECE70B600DD2194 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6F5C40F1EAFF5B9005EFE69 /* Floppy ARG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floppy ARG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5C4121EAFF5B9005EFE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6F5C4141EAFF5B9005EFE69 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D6F5C4161EAFF5B9005EFE69 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D6F5C41A1EAFF5B9005EFE69 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D6F5C41D1EAFF5B9005EFE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F5C41F1EAFF5B9005EFE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F5C4241EAFF5B9005EFE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F5C42A1EB0284C005EFE69 /* fly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly1.png; sourceTree = "<group>"; };
+		D6F5C42B1EB0284C005EFE69 /* fly2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly2.png; sourceTree = "<group>"; };
+		D6F5C42C1EB0284C005EFE69 /* fondo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo2.png; sourceTree = "<group>"; };
+		D6F5C4301EB0284C005EFE69 /* cristilens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cristilens.png; sourceTree = "<group>"; };
+		D6F5C4661EB07DB7005EFE69 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F5C40C1EAFF5B9005EFE69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64AD9701EBC5D3C00627FAA /* GoogleMobileAds.framework in Frameworks */,
+				230EB5227774CF8FE0F7DF60 /* Pods_Floppy_ARG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7763F7D4B510D7EA45C2BE5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CB4558FB0BCF2092872E12E /* Pods-Floppy ARG.debug.xcconfig */,
+				1102C24DE057A9D68362F5CB /* Pods-Floppy ARG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6375A781EB965E000F5EB2B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D6375A891EB9A80C00F5EB2B /* buttons */,
+				D67482331EFC8BC60019D424 /* characterSelectorBackground.png */,
+				D63590761EC9257F0029528C /* Pinguinos.png */,
+				D674824F1EFC954D0019D424 /* BackGroundHome.png */,
+				D63590771EC9257F0029528C /* Arsat.png */,
+				D6EC438D1EC17131002BC17F /* cajon.png */,
+				D6EC43911EC17847002BC17F /* cartelCristi1.png */,
+				D6EC438F1EC17693002BC17F /* cartelCristi.png */,
+				D67482351EFC8BD00019D424 /* cristi2Full.png */,
+				D67482371EFC8BDD0019D424 /* LaunchScreen.png */,
+				D67482391EFC8BF40019D424 /* macri2Full.png */,
+				D6883DF71EC00595006F2EC7 /* Helicoptero.png */,
+				D6883DF81EC00595006F2EC7 /* MacriGato.png */,
+				D67482511EFC95AF0019D424 /* fondo.png */,
+				D64AD9611EBC4BBF00627FAA /* car.png */,
+				D6F5C42A1EB0284C005EFE69 /* fly1.png */,
+				D6F5C42B1EB0284C005EFE69 /* fly2.png */,
+				D674823F1EFC8C0A0019D424 /* cristi1.png */,
+				D6F5C42C1EB0284C005EFE69 /* fondo2.png */,
+				D67482411EFC8C190019D424 /* BackGroundHome.png */,
+				D674823B1EFC8C020019D424 /* cristi2.png */,
+				D674823C1EFC8C020019D424 /* cristi3.png */,
+				D635906E1EC8FA0C0029528C /* CharacterSelectorImage1.png */,
+				D63590701EC8FC7D0029528C /* CharacterSelectorImage2.png */,
+				D6F5C4301EB0284C005EFE69 /* cristilens.png */,
+				D64AD9691EBC58BF00627FAA /* nestor1.png */,
+				D64AD96A1EBC58BF00627FAA /* nestor2.png */,
+				D6EC438B1EC16AE6002BC17F /* nestor3.png */,
+				D64AD96B1EBC58BF00627FAA /* nestorFull.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D6375A891EB9A80C00F5EB2B /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D67482531EFC96170019D424 /* exitButton.png */,
+				D67482471EFC8E2A0019D424 /* choseCharacter.png */,
+				D67482481EFC8E2A0019D424 /* nubeButton.png */,
+				D67482491EFC8E2A0019D424 /* playButton.png */,
+				D674824A1EFC8E2A0019D424 /* restartButton.png */,
+			);
+			name = buttons;
+			sourceTree = "<group>";
+		};
+		D6F5C4061EAFF5B9005EFE69 = {
+			isa = PBXGroup;
+			children = (
+				D6F5C4111EAFF5B9005EFE69 /* Floppy ARG */,
+				D6F5C4101EAFF5B9005EFE69 /* Products */,
+				D6F801DC1EB2C0E9004BDF0F /* Frameworks */,
+				7763F7D4B510D7EA45C2BE5E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F5C4101EAFF5B9005EFE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C40F1EAFF5B9005EFE69 /* Floppy ARG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F5C4111EAFF5B9005EFE69 /* Floppy ARG */ = {
+			isa = PBXGroup;
+			children = (
+				D6F37F7C1ECE70B600DD2194 /* GoogleService-Info.plist */,
+				D6375A781EB965E000F5EB2B /* images */,
+				D6F5C4141EAFF5B9005EFE69 /* GameScene.sks */,
+				D6768E3E1EC1443E009F1042 /* GameScene.swift */,
+				D6F5C41A1EAFF5B9005EFE69 /* GameViewController.swift */,
+				D6F5C4161EAFF5B9005EFE69 /* Actions.sks */,
+				D68140711EBAA6A30061DB3E /* Launch Screen.storyboard */,
+				D6F5C4121EAFF5B9005EFE69 /* AppDelegate.swift */,
+				D6F5C41C1EAFF5B9005EFE69 /* Main.storyboard */,
+				D6F5C4661EB07DB7005EFE69 /* Raleway-Light.ttf */,
+				D67C9BC51EB2B35200EFD629 /* HomeScene.sks */,
+				D6DB7A2E1EC64851003DF0E9 /* HomeScene.swift */,
+				D6375A7B1EB9662900F5EB2B /* CharacterSelectorScene.swift */,
+				D6375A791EB9660100F5EB2B /* CharacterSelectorScene.sks */,
+				D635907A1EC931750029528C /* SuperHimno.mp3 */,
+				D6768E3C1EC14056009F1042 /* Crash.wav */,
+				D6768E3A1EC13830009F1042 /* Jump.wav */,
+				D6768E381EC13582009F1042 /* firstJump.m4a */,
+				D63590721EC9225B0029528C /* switch.wav */,
+				D63590741EC9226C0029528C /* click.wav */,
+				D6F5C41F1EAFF5B9005EFE69 /* Assets.xcassets */,
+				D6F5C4241EAFF5B9005EFE69 /* Info.plist */,
+			);
+			name = "Floppy ARG";
+			path = "Argentina Flap";
+			sourceTree = "<group>";
+		};
+		D6F801DC1EB2C0E9004BDF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D64AD96F1EBC5D3C00627FAA /* GoogleMobileAds.framework */,
+				62E85944FA3BDF517A7D1CD0 /* Pods_Floppy_ARG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F5C40E1EAFF5B9005EFE69 /* Floppy ARG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F5C4271EAFF5B9005EFE69 /* Build configuration list for PBXNativeTarget "Floppy ARG" */;
+			buildPhases = (
+				3657878C693DF700095AD491 /* [CP] Check Pods Manifest.lock */,
+				D6F5C40B1EAFF5B9005EFE69 /* Sources */,
+				D6F5C40C1EAFF5B9005EFE69 /* Frameworks */,
+				D6F5C40D1EAFF5B9005EFE69 /* Resources */,
+				74942F450920226945A09CBB /* [CP] Embed Pods Frameworks */,
+				C80FC6279EF304DFFA413454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Floppy ARG";
+			productName = "Argentina Flap";
+			productReference = D6F5C40F1EAFF5B9005EFE69 /* Floppy ARG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F5C4071EAFF5B9005EFE69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Maximiliano Arce";
+				TargetAttributes = {
+					D6F5C40E1EAFF5B9005EFE69 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = B4DYL883P3;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D6F5C40A1EAFF5B9005EFE69 /* Build configuration list for PBXProject "Floppy ARG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F5C4061EAFF5B9005EFE69;
+			productRefGroup = D6F5C4101EAFF5B9005EFE69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F5C40E1EAFF5B9005EFE69 /* Floppy ARG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F5C40D1EAFF5B9005EFE69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F37F7D1ECE70B600DD2194 /* GoogleService-Info.plist in Resources */,
+				D635907B1EC931750029528C /* SuperHimno.mp3 in Resources */,
+				D674823E1EFC8C020019D424 /* cristi3.png in Resources */,
+				D674824C1EFC8E2A0019D424 /* nubeButton.png in Resources */,
+				D6EC438C1EC16AE6002BC17F /* nestor3.png in Resources */,
+				D64AD96E1EBC58BF00627FAA /* nestorFull.png in Resources */,
+				D64AD96C1EBC58BF00627FAA /* nestor1.png in Resources */,
+				D6883DF91EC00595006F2EC7 /* Helicoptero.png in Resources */,
+				D68140721EBAA6A30061DB3E /* Launch Screen.storyboard in Resources */,
+				D6F5C41E1EAFF5B9005EFE69 /* Main.storyboard in Resources */,
+				D6EC43921EC17847002BC17F /* cartelCristi1.png in Resources */,
+				D674824B1EFC8E2A0019D424 /* choseCharacter.png in Resources */,
+				D6F5C4151EAFF5B9005EFE69 /* GameScene.sks in Resources */,
+				D63590751EC9226C0029528C /* click.wav in Resources */,
+				D64AD96D1EBC58BF00627FAA /* nestor2.png in Resources */,
+				D67C9BC61EB2B35200EFD629 /* HomeScene.sks in Resources */,
+				D67482521EFC95AF0019D424 /* fondo.png in Resources */,
+				D64AD9621EBC4BBF00627FAA /* car.png in Resources */,
+				D6F5C4351EB0284C005EFE69 /* fondo2.png in Resources */,
+				D6768E391EC13609009F1042 /* firstJump.m4a in Resources */,
+				D67482361EFC8BD00019D424 /* cristi2Full.png in Resources */,
+				D6883DFA1EC00595006F2EC7 /* MacriGato.png in Resources */,
+				D6F5C4201EAFF5B9005EFE69 /* Assets.xcassets in Resources */,
+				D63590711EC8FC7D0029528C /* CharacterSelectorImage2.png in Resources */,
+				D674824D1EFC8E2A0019D424 /* playButton.png in Resources */,
+				D6768E3B1EC13830009F1042 /* Jump.wav in Resources */,
+				D63590791EC9257F0029528C /* Arsat.png in Resources */,
+				D67482381EFC8BDD0019D424 /* LaunchScreen.png in Resources */,
+				D674823D1EFC8C020019D424 /* cristi2.png in Resources */,
+				D67482341EFC8BC60019D424 /* characterSelectorBackground.png in Resources */,
+				D6EC438E1EC17131002BC17F /* cajon.png in Resources */,
+				D674823A1EFC8BF40019D424 /* macri2Full.png in Resources */,
+				D674824E1EFC8E2A0019D424 /* restartButton.png in Resources */,
+				D67482501EFC954D0019D424 /* BackGroundHome.png in Resources */,
+				D6F5C4671EB07DB7005EFE69 /* Raleway-Light.ttf in Resources */,
+				D6F5C4171EAFF5B9005EFE69 /* Actions.sks in Resources */,
+				D6EC43901EC17693002BC17F /* cartelCristi.png in Resources */,
+				D6375A7A1EB9660100F5EB2B /* CharacterSelectorScene.sks in Resources */,
+				D67482541EFC96170019D424 /* exitButton.png in Resources */,
+				D6F5C4341EB0284C005EFE69 /* fly2.png in Resources */,
+				D63590781EC9257F0029528C /* Pinguinos.png in Resources */,
+				D6F5C4391EB0284C005EFE69 /* cristilens.png in Resources */,
+				D6768E3D1EC14056009F1042 /* Crash.wav in Resources */,
+				D63590731EC9225B0029528C /* switch.wav in Resources */,
+				D67482401EFC8C0A0019D424 /* cristi1.png in Resources */,
+				D635906F1EC8FA0C0029528C /* CharacterSelectorImage1.png in Resources */,
+				D6F5C4331EB0284C005EFE69 /* fly1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3657878C693DF700095AD491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74942F450920226945A09CBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floppy ARG/Pods-Floppy ARG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80FC6279EF304DFFA413454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floppy ARG/Pods-Floppy ARG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F5C40B1EAFF5B9005EFE69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6768E3F1EC1443E009F1042 /* GameScene.swift in Sources */,
+				D6F5C41B1EAFF5B9005EFE69 /* GameViewController.swift in Sources */,
+				D6DB7A2F1EC64851003DF0E9 /* HomeScene.swift in Sources */,
+				D6F5C4131EAFF5B9005EFE69 /* AppDelegate.swift in Sources */,
+				D6375A7C1EB9662900F5EB2B /* CharacterSelectorScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6F5C41C1EAFF5B9005EFE69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F5C41D1EAFF5B9005EFE69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F5C4251EAFF5B9005EFE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6F5C4261EAFF5B9005EFE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F5C4281EAFF5B9005EFE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB4558FB0BCF2092872E12E /* Pods-Floppy ARG.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B4DYL883P3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = "Argentina Flap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxArc.FloppyARG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F5C4291EAFF5B9005EFE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1102C24DE057A9D68362F5CB /* Pods-Floppy ARG.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B4DYL883P3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+				);
+				INFOPLIST_FILE = "Argentina Flap/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaxArc.FloppyARG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F5C40A1EAFF5B9005EFE69 /* Build configuration list for PBXProject "Floppy ARG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5C4251EAFF5B9005EFE69 /* Debug */,
+				D6F5C4261EAFF5B9005EFE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F5C4271EAFF5B9005EFE69 /* Build configuration list for PBXNativeTarget "Floppy ARG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5C4281EAFF5B9005EFE69 /* Debug */,
+				D6F5C4291EAFF5B9005EFE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F5C4071EAFF5B9005EFE69 /* Project object */;
+}

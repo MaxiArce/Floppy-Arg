@@ -1,34 +1,39 @@
-//
-//  GameViewController.swift
-//  Argentina Flap
-//
-//  Created by Maxi Arce on 4/25/17.
-//  Copyright © 2017 Maximiliano Arce. All rights reserved.
-//
-
 import UIKit
 import SpriteKit
 import GameplayKit
+import GoogleMobileAds
+
+
 
 class GameViewController: UIViewController {
-
+ 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            
+            if let scene = HomeScene(fileNamed: "HomeScene") {
                 // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
+//                scene.size.height = scene.frame.size.height - bannerView.frame.size.height
+//                scene.size.width = scene.frame.size.width - bannerView.frame.size.width
+                scene.scaleMode = .aspectFit
+            
                 
                 // Present the scene
                 view.presentScene(scene)
+                
+               
+                
             }
             
             view.ignoresSiblingOrder = true
             
-            view.showsFPS = true
-            view.showsNodeCount = true
+            view.showsFPS = false
+            view.showsNodeCount = false
         }
     }
 
@@ -38,7 +43,7 @@ class GameViewController: UIViewController {
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
+            return .portrait
         } else {
             return .all
         }
@@ -52,4 +57,13 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    func showHome()
+    {
+        
+        self.view!.window!.rootViewController!.performSegue(withIdentifier: "gameToHome", sender: self)
+    }
+    
+  
+    
 }
